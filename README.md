@@ -1,59 +1,105 @@
-Project Title:
-Exploratory Data Analysis (EDA) on Student Performance Dataset (Prodigy Infotech - Task 2) 📈
+Exploratory Data Analysis (EDA) on Student Performance Dataset
+🚀 Prodigy Infotech – Data Science Internship Task 2
+🎯 Project Objective
+The objective of this project is to perform a comprehensive Exploratory Data Analysis (EDA) on a Student Performance dataset to:
 
-Project Objective:
-The main goal of this project is to conduct a thorough Exploratory Data Analysis (EDA) on a student performance dataset. This analysis aims to:
+Understand the key factors influencing student academic performance
 
-Understand the key factors influencing student academic performance.
+Identify patterns and relationships across various demographic and academic variables
 
-Identify trends, patterns, and relationships within student demographics, parental information, educational background, and test scores.
+Derive actionable insights that may assist in improving educational outcomes or identifying students at academic risk
 
-Uncover insights that could help in improving educational strategies or identifying at-risk students.
+📁 Dataset Description
+Dataset Title: Student Performance in Exams
 
-Dataset Description:
+Number of Rows: 1000 (approx.)
 
-Name/Topic of Dataset: Student Performance in Exams
+Number of Columns: 8
 
+📌 Key Features/Columns:
+gender: Gender of the student (male/female)
 
+race/ethnicity: Group classification of students
 
-Key Features/Columns
+parental level of education: Highest education level of the parent
 
-Number of Rows/Columns 
+lunch: Type of lunch (standard/free-reduced)
 
-Key Analysis Steps Performed:
-(Review your notebook and list the main sections/steps)
+test preparation course: Whether the student completed a test prep course
 
-Data Loading and Initial Inspection: Loading the dataset and examining its shape, data types, and first few rows.
+math score: Score in mathematics
 
-Handling Missing Values
+reading score: Score in reading
 
-Descriptive Statistics: Generating summary statistics for numerical scores and frequency counts for categorical attributes.
+writing score: Score in writing
 
-Univariate Analysis:
+🔍 Key Analysis Steps Performed
+📥 1. Data Loading and Initial Inspection
+Loaded dataset using pandas
 
-Distributions of math score, reading score, and writing score (histograms, box plots).
+Viewed first few records, checked shape and data types
 
-Counts and proportions of categorical features like gender, race/ethnicity, parental level of education, etc.
+🚫 2. Handling Missing Values
+Checked for missing/null values
 
-Bivariate/Multivariate Analysis:
+Confirmed that dataset had no missing entries
 
-Analyzing the impact of gender, race/ethnicity, parental level of education, lunch, and test preparation course on math, reading, and writing scores (e.g., using box plots, bar plots, or violin plots).
+📊 3. Descriptive Statistics
+Generated summary statistics for numerical features
 
-Correlations between different scores.
+Analyzed categorical columns using value counts
 
-Outlier Detection 
+📈 4. Univariate Analysis
+Plotted histograms, boxplots for math, reading, and writing scores
 
+Examined distributions and score ranges
 
+Countplots for categorical features like gender, race/ethnicity, parental level of education, etc.
 
-Tools and Libraries Used:
-Python
+🔗 5. Bivariate/Multivariate Analysis
+Analyzed score distributions across:
 
-Jupyter Notebook
+Gender
 
-Pandas (for data manipulation)
+Parental education level
 
-NumPy (for numerical operations)
+Lunch type
 
-Matplotlib (for basic plotting)
+Test preparation course
 
-Seaborn (for enhanced statistical visualizations)
+Used:
+
+Box plots
+
+Violin plots
+
+Bar plots
+
+Calculated and visualized correlation matrix using heatmap
+
+⚠️ 6. Outlier Detection
+Identified score outliers using boxplots
+
+🛠️ Tools and Libraries Used
+Language: Python
+
+Environment: Jupyter Notebook
+
+🧰 Libraries:
+pandas – Data manipulation
+
+numpy – Numerical computations
+
+matplotlib – Basic data visualization
+
+seaborn – Advanced statistical plots and styling
+
+📌 Conclusion
+This EDA provided insights into how demographic and background variables impact student performance. Some key findings included:
+
+Female students showed slightly higher average reading and writing scores
+
+Students who completed test preparation performed better across all subjects
+
+Parental education level positively influenced scores
+
